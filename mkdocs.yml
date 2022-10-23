@@ -1,0 +1,8 @@
+site_name: Bayesian v0.1 Documentation
+plugins:
+  - mkdocstrings
+      handlers:
+          python:
+            setup_commands:
+              - import sys
+              - sys.path.insert(0, "..")
